@@ -1,8 +1,6 @@
 #ifndef RECURSION_H
 #define RECURSION_H
-int binary_search(int, int, int, int);
-
-int binary_search(int list, int low, int high, int target){
+int binary_search(int list[], int low, int high, int target){
 	int mid = (low + high) / 2;
 	
 	if (list[mid] == target){
