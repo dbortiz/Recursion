@@ -1,3 +1,4 @@
+// Header file to created template binary_search function
 #ifndef RECURSION_H
 #define RECURSION_H
 /*
@@ -14,7 +15,7 @@ int binary_search(int list[], int low, int high, int target){
 }
 */
 
-
+// Template function to find a value target within an array
 template <class T>
 T binary_search(T list[], int low, int high, T target){
 	int mid = (low + high) / 2;

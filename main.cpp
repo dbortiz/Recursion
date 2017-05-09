@@ -1,3 +1,8 @@
+// Dan Ortiz
+// CPSC 121-01
+// This program searches through an array and finds a target value and tells the user
+// at which index, within the array, the target value is located at.
+
 // Feel free to modify this file
 // or create a header file and link it in.
 #include <iostream>
