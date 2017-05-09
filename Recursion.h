@@ -14,6 +14,7 @@ int binary_search(int list[], int low, int high, int target){
 }
 */
 
+
 template <class T>
 T binary_search(T list[], int low, int high, T target){
 	int mid = (low + high) / 2;
