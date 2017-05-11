@@ -23,9 +23,9 @@ T binary_search(T list[], int low, int high, T target){
 	if(list[mid] == target){
 		return mid;
 	} else if (list[mid] < target){
-		binary_search(list, mid + 1, high, target);
+		return binary_search(list, mid + 1, high, target);
 	} else {
-		binary_search(list, low, mid - 1, target);
+		return binary_search(list, low, mid - 1, target);
 	}
 }
 #endif
